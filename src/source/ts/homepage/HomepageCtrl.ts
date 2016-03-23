@@ -1,6 +1,6 @@
 module VMPL {
     export class HomepageCtrl {
-        public title:string = 'Homepage';
+        public title:string = 'Homepage vm.pl';
         public rate:number = 7;
         public max:number = 10;
         public percent:number = 0;
