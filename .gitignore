@@ -1,0 +1,13 @@
+/.idea/
+/src/build/*
+/src/coverage/*
+/src/test_build/*
+/src/source/typings/*
+/src/source/ts/**/*.js
+
+test-results.xml
+/node_modules
+
+/www/css/*
+/www/js/*
+/www/fonts/*

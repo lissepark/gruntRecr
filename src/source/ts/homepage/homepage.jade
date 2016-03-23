@@ -1,0 +1,7 @@
+.homepage
+    h2 {{ hpCtrl.title }}
+
+    i.fa.fa-search
+
+    uib-rating(ng-model="hpCtrl.rate", max="hpCtrl.max", on-hover="hpCtrl.hoveringOver(value)", on-leave="hpCtrl.overStar = null")
+    span {{hpCtrl.percent}}%
