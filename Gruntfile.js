@@ -35,7 +35,8 @@ module.exports = function (grunt) {
                     '<%= pkg.options.dist %>css/main.min.css': [
                         '<%= pkg.options.libs %>bootstrap/dist/css/bootstrap.css',
                         '<%= pkg.options.app_build %>css/main.min.css',
-                        '<%= pkg.options.libs %>angular-ui-bootstrap/dist/ui-bootstrap-csp.css'
+                        '<%= pkg.options.libs %>angular-ui-bootstrap/dist/ui-bootstrap-csp.css',
+                        '<%= pkg.options.libs %>font-awesome/css/font-awesome.min.css'
                     ]
                 }
             },
