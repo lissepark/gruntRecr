@@ -14,6 +14,9 @@ module VMPL {
 }
 
 angular.module('vmpl')
-    .controller('HomepageCtrl', [function () {
+    .factory('RatingService', [function() {
         return new VMPL.HomepageCtrl();
+    }])
+    .controller('HomepageCtrl', ['RatingService', function (RatingService) {
+        this.service = RatingService;
     }]);
